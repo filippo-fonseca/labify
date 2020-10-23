@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Container } from "../styles/Home";
-import { Header, Recognition } from "./styles";
+import { Header, Recognition, Title } from "./styles";
 
 const Home = () => {
   return (
@@ -12,37 +12,122 @@ const Home = () => {
       <div className="flexbox">
         <Header>Labify</Header>
 
-        <div className="box box-b light">
+        <div
+          style={{ backgroundColor: "#3EC4C4", border: "none" }}
+          className="box box-b light"
+        >
           <img
-            height="75px"
-            width="75px"
-            src="https://i.ibb.co/p18QTGf/4074391.jpg"
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/sVgQYfK/atom.png"
+            style={{ marginTop: "32px" }}
           ></img>
-          <p>A</p>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>General</Title>
         </div>
-        <div className="box box-c dark">
-          <p>B</p>
+        <div
+          style={{ backgroundColor: "#AE6BEB", border: "none" }}
+          className="box box-c dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/NC9gQyW/flag.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+            Conclusion
+          </Title>
         </div>
 
-        <div className="box box-e dark">
-          <p>D</p>
+        <div
+          style={{ backgroundColor: "#FFC643", border: "none" }}
+          className="box box-e dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/J5BvfQz/information.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+            Hypothesis
+          </Title>
         </div>
 
-        <div className="box box-c dark">
-          <p>B</p>
+        <div
+          style={{ backgroundColor: "#58BDFD", border: "none" }}
+          className="box box-c dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/hVGSKdm/clipboards.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>More</Title>
         </div>
 
-        <div className="box box-e dark">
-          <p>D</p>
+        <div
+          style={{ backgroundColor: "#797DFF", border: "none" }}
+          className="box box-e dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/Ks63fmZ/blur-1.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+            Materials
+          </Title>
         </div>
-        <div className="box box-f light">
-          <p>E</p>
+        <div
+          style={{ backgroundColor: "#FE8F64", border: "none" }}
+          className="box box-f light"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/0tQzkbG/workflow.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>Method</Title>
         </div>
-        <div className="box box-f light">
-          <p>E</p>
+        <div
+          style={{ backgroundColor: "#FD749D", border: "none" }}
+          className="box box-f light"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/D1WYBJY/clipboard.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>Results</Title>
         </div>
-        <div className="box box-e dark">
-          <p>D</p>
+        <div
+          style={{ backgroundColor: "#D579EE", border: "none" }}
+          className="box box-e dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/cQr3SMv/bar-chart.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>Graph</Title>
+        </div>
+        <div
+          style={{ backgroundColor: "#3CD0F2", border: "none" }}
+          className="box box-e dark"
+        >
+          <img
+            height="100px"
+            width="100px"
+            src="https://i.ibb.co/DYTcwKm/analytics.png"
+            style={{ marginTop: "32px" }}
+          ></img>
+          <Title style={{ fontSize: "26px", marginTop: "0px" }}>Analysis</Title>
         </div>
       </div>
 
