@@ -139,6 +139,23 @@ const Home = () => {
           <i>
             How does height impact the final velocity of an object in free fall?
           </i>
+          <br></br>
+          <p>
+            <a
+              style={{ color: "blue", textDecoration: "none" }}
+              href="https://youtube.com"
+            >
+              Watch video
+            </a>{" "}
+            |{" "}
+            <a
+              style={{ color: "blue", textDecoration: "none" }}
+              href="https://github.com/filippo-fonseca/labify"
+              target="_blank"
+            >
+              View GitHub code
+            </a>
+          </p>
         </Recognition>
       </footer>
     </Container>
