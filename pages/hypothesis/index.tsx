@@ -36,13 +36,17 @@ const Hypothesis = () => {
         className="general-box"
       >
         <h1>Hypothesis</h1>
-        <h3 style={{ marginLeft: "32px", maxWidth: "95%", fontSize: "32px" }}>
+        {/* <h3 style={{ marginLeft: "32px", maxWidth: "95%", fontSize: "32px" }}>
           An object in perfect free fall is accelerating at a constant rate of
           9.8 m/s2 towards the ground (Freefall, 2020). If the height of the
           object is altered, but the acceleration stays the same, according to
           a=ΔV/t, the final velocity should increase at equal increments. This
           would be shown by an R2 value of 1 on a scatter graph.
-        </h3>
+        </h3> */}
+        <img
+          style={{ marginTop: "5rem" }}
+          src="https://i.ibb.co/GRNrQDG/h.png"
+        ></img>
       </div>
     </div>
   );

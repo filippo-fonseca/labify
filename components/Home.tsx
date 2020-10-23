@@ -76,20 +76,22 @@ const Home = () => {
           <Title style={{ fontSize: "26px", marginTop: "0px" }}>More</Title>
         </div>
 
-        <div
-          style={{ backgroundColor: "#797DFF", border: "none" }}
-          className="box box-e dark"
-        >
-          <img
-            height="100px"
-            width="100px"
-            src="https://i.ibb.co/Ks63fmZ/blur-1.png"
-            style={{ marginTop: "32px" }}
-          ></img>
-          <Title style={{ fontSize: "26px", marginTop: "0px" }}>
-            Materials
-          </Title>
-        </div>
+        <Link href="/materials">
+          <div
+            style={{ backgroundColor: "#797DFF", border: "none" }}
+            className="box box-e dark"
+          >
+            <img
+              height="100px"
+              width="100px"
+              src="https://i.ibb.co/Ks63fmZ/blur-1.png"
+              style={{ marginTop: "32px", cursor: "pointer" }}
+            ></img>
+            <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+              Materials
+            </Title>
+          </div>
+        </Link>
         <div
           style={{ backgroundColor: "#FE8F64", border: "none" }}
           className="box box-f light"

@@ -25,6 +25,11 @@ h1 {
   background-size: cover;
 }
 
+.materials-bck {
+  background: url("https://image.freepik.com/free-vector/abstract-background-with-gradient-shapes_23-2148705497.jpg");
+  background-size: cover;
+}
+
 /* go 1 dirextion, gutter */
 /* flexbox */
 .flexbox {
