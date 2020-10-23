@@ -10,17 +10,6 @@ const General = () => {
       }}
       className="general-bck"
     >
-      {/* <header>
-        <button
-          style={{
-            border: "none",
-            borderRadius: "10px",
-            fontSize: "20px",
-          }}
-        >
-          Back to dashboard
-        </button>
-      </header> */}
       <Link href="/">
         <img
           height="50px"
@@ -108,6 +97,8 @@ const General = () => {
                   <li>React.js</li>
                   <li>Next.js</li>
                   <li>HTML and CSS principles</li>
+                  <li>Server-side rendering</li>
+                  <li>JSON</li>
                 </ul>
               </div>
             </p>
