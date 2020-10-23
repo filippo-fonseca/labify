@@ -20,6 +20,11 @@ h1 {
   background-size: cover;
 }
 
+.hypothesis-bck {
+  background: url("https://image.freepik.com/free-vector/gradient-green-blue-abstract-geometric-background_23-2148362562.jpg");
+  background-size: cover;
+}
+
 /* go 1 dirextion, gutter */
 /* flexbox */
 .flexbox {

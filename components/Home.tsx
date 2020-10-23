@@ -46,21 +46,22 @@ const Home = () => {
             Conclusion
           </Title>
         </div>
-
-        <div
-          style={{ backgroundColor: "#FFC643", border: "none" }}
-          className="box box-e dark"
-        >
-          <img
-            height="100px"
-            width="100px"
-            src="https://i.ibb.co/J5BvfQz/information.png"
-            style={{ marginTop: "32px" }}
-          ></img>
-          <Title style={{ fontSize: "26px", marginTop: "0px" }}>
-            Hypothesis
-          </Title>
-        </div>
+        <Link href="/hypothesis">
+          <div
+            style={{ backgroundColor: "#FFC643", border: "none" }}
+            className="box box-e dark"
+          >
+            <img
+              height="100px"
+              width="100px"
+              src="https://i.ibb.co/J5BvfQz/information.png"
+              style={{ marginTop: "32px", cursor: "pointer" }}
+            ></img>
+            <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+              Hypothesis
+            </Title>
+          </div>
+        </Link>
 
         <div
           style={{ backgroundColor: "#58BDFD", border: "none" }}
@@ -150,7 +151,7 @@ const Home = () => {
           <br></br>
           <p>
             <a
-              style={{ color: "blue", textDecoration: "none" }}
+              style={{ color: "#3854FC", textDecoration: "none" }}
               href="https://youtube.com"
               target="_blank"
             >
@@ -158,11 +159,11 @@ const Home = () => {
             </a>{" "}
             |{" "}
             <a
-              style={{ color: "blue", textDecoration: "none" }}
+              style={{ color: "#3854FC", textDecoration: "none" }}
               href="https://github.com/filippo-fonseca/labify"
               target="_blank"
             >
-              View GitHub code
+              GitHub
             </a>
           </p>
         </Recognition>
