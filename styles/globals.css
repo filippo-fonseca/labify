@@ -1,0 +1,149 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  font-family: roboto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.demo {
+  margin: auto;
+  width: 100%;
+}
+
+/* go 1 dirextion, gutter */
+/* flexbox */
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.box {
+  flex: 1 1 220px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.box-a {
+  line-height: 30px;
+}
+
+.box p {
+  padding: 15px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: black;
+  color: white;
+}
+
+.last p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.flexbox h1 {
+  flex: 1 100%;
+}
+
+.box-b,
+.box-c,
+.box-d,
+.box-e,
+.box-f {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.box-c {
+  color: white;
+  /*  you can change the order in 1 dimension only   */
+  order: 1;
+}
+
+.box-d {
+  /*  you can change the order in 1 dimension only   */
+  color: white;
+  order: 2;
+}
+
+.last {
+  /*  you can change the order in 1 dimension only   */
+  /*  when you change one, you need to change this one too, in order to postion this box to be the last box  */
+  order: 3;
+  background-color: gold;
+}
+
+/* GRID */
+.grid {
+  margin: 0 20px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-gap: 10px; /* the magic is here! you can easily set up your gutter */
+}
+
+.item {
+  border-radius: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* positioning */
+/* Put whatever you want  */
+.item-g {
+  /*  you need to change the value of column number to position your item in a specific area  */
+  grid-column: 1/-1;
+}
+
+.first {
+  /*  target your grid item to change the postion !  */
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  /*  change the postion in both ROW and Column area  */
+  grid-row-start: 1;
+  grid-column: 3/-1;
+}
+
+.second {
+  /*  change the postion in both ROW and Column area  */
+  grid-column: 2/3;
+  grid-row-start: 2;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+}
+
+.grid .last p {
+  line-height: 120px;
+}
+
+.item-b,
+.item-c,
+.item-d {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
