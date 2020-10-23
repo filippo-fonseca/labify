@@ -1,6 +1,7 @@
+import Home from "../../components/Home";
 import Link from "next/link";
 
-const Method = () => {
+const Conclusion = () => {
   return (
     <div
       style={{
@@ -34,18 +35,24 @@ const Method = () => {
         }}
         className="general-box"
       >
-        <h1>Materials</h1>
-        <p>
-          <p>1. Falling object (baseball)</p>
-          <p>2. Measuring tape or tape measurex</p>
-          <p>3. Stopwatch/timer</p>
-          <p>4. Pencil</p>
-          Falling object (baseball), Measuring tape or tape measure,
-          stopwatch/timer, pencil
-        </p>
+        <h1>Conclusion</h1>
+        {/* <h3 style={{ marginLeft: "32px", maxWidth: "95%", fontSize: "32px" }}>
+          An object in perfect free fall is accelerating at a constant rate of
+          9.8 m/s2 towards the ground (Freefall, 2020). If the height of the
+          object is altered, but the acceleration stays the same, according to
+          a=ΔV/t, the final velocity should increase at equal increments. This
+          would be shown by an R2 value of 1 on a scatter graph.
+        </h3> */}
+        <div>
+          <img
+            height="600px"
+            width="1200"
+            src="https://i.ibb.co/bmB5QJm/Screen-Shot-2020-10-23-at-12-36-22.png"
+          ></img>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Method;
+export default Conclusion;
