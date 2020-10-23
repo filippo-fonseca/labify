@@ -144,6 +144,7 @@ const Home = () => {
             <a
               style={{ color: "blue", textDecoration: "none" }}
               href="https://youtube.com"
+              target="_blank"
             >
               Watch video
             </a>{" "}
