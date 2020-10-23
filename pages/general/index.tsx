@@ -1,18 +1,42 @@
 import Home from "../../components/Home";
+import Link from "next/link";
 
 const General = () => {
   return (
     <div
       style={{
         textAlign: "center",
-        padding: "15px",
+        padding: "32px",
       }}
       className="general-bck"
     >
+      {/* <header>
+        <button
+          style={{
+            border: "none",
+            borderRadius: "10px",
+            fontSize: "20px",
+          }}
+        >
+          Back to dashboard
+        </button>
+      </header> */}
+      <Link href="/">
+        <img
+          height="50px"
+          src="https://www.flaticon.com/svg/static/icons/svg/545/545680.svg"
+          style={{
+            marginRight: "88%",
+            marginTop: "-20px",
+            marginBottom: "10px",
+            cursor: "pointer",
+          }}
+        ></img>
+      </Link>
       <div
         style={{
           backgroundColor: "white",
-          height: "765px",
+          height: "700px",
           width: "90%",
           textAlign: "center",
           marginLeft: "auto",
@@ -78,12 +102,14 @@ const General = () => {
               this very web app, a beautifully made video, and the required lab
               report as well. More specifically, the tech stack utilized for
               this app includes the following:{" "}
-              <ul>
-                <li>TypeScript</li>
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>HTML and CSS principles</li>
-              </ul>
+              <div>
+                <ul>
+                  <li>TypeScript</li>
+                  <li>React.js</li>
+                  <li>Next.js</li>
+                  <li>HTML and CSS principles</li>
+                </ul>
+              </div>
             </p>
           </div>
         </div>

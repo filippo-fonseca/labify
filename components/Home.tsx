@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Container } from "../styles/Home";
 import { Header, Recognition, Title } from "./styles";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -11,19 +12,26 @@ const Home = () => {
       </Head>
       <div className="flexbox">
         <Header>Labify</Header>
-
-        <div
-          style={{ backgroundColor: "#3EC4C4", border: "none" }}
-          className="box box-b light"
-        >
-          <img
-            height="100px"
-            width="100px"
-            src="https://i.ibb.co/sVgQYfK/atom.png"
-            style={{ marginTop: "32px" }}
-          ></img>
-          <Title style={{ fontSize: "26px", marginTop: "0px" }}>General</Title>
-        </div>
+        <Link href="/general">
+          <div
+            style={{
+              backgroundColor: "#3EC4C4",
+              border: "none",
+              cursor: "pointer",
+            }}
+            className="box box-b light"
+          >
+            <img
+              height="100px"
+              width="100px"
+              src="https://i.ibb.co/sVgQYfK/atom.png"
+              style={{ marginTop: "32px" }}
+            ></img>
+            <Title style={{ fontSize: "26px", marginTop: "0px" }}>
+              General
+            </Title>
+          </div>
+        </Link>
         <div
           style={{ backgroundColor: "#AE6BEB", border: "none" }}
           className="box box-c dark"
