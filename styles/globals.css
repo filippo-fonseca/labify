@@ -15,6 +15,11 @@ h1 {
   width: 100%;
 }
 
+.general-bck {
+  background: url("https://image.freepik.com/free-photo/blurred-pop-abstract-background-with-vivid-primary-colors_58702-1351.jpg");
+  background-size: cover;
+}
+
 /* go 1 dirextion, gutter */
 /* flexbox */
 .flexbox {
